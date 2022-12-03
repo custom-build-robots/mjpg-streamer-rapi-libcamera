@@ -59,7 +59,8 @@ If you do not have gcc (and g++ for the opencv plugin) and libcamera-dev you may
     
  After the installation of those packages was successfull just clone the repository.   
     
-    git clone https://github.com/custom-build-robots/mjpg-streamer-rapi-libcamera.git
+    cd /opt
+    sudo git clone https://github.com/custom-build-robots/mjpg-streamer-rapi-libcamera.git
 
 Simple compilation
 ------------------
