@@ -1,4 +1,4 @@
-mjpg-streamer
+mjpg-streamer for Raspberry Pi 4 with libcamera
 =============
 
 This is a fork of http://sourceforge.net/projects/mjpg-streamer/ with added support for the Raspberry Pi camera via the input_raspicam plugin.
