@@ -67,8 +67,8 @@ Simple compilation
 
 This will build and install all plugins that can be compiled.
 
-    cd mjpg-streamer-experimental
-    make
+    cd /opt/mjpg-streamer-rapi-libcamera/mjpg-streamer-experimental
+    sudo make
     sudo make install
     
 By default, everything will be compiled in "release" mode. If you wish to compile
