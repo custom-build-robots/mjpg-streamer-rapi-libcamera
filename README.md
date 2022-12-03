@@ -71,7 +71,7 @@ This will build and install all plugins that can be compiled.
     sudo make
     sudo make install
 
-Advanced Usage
+Easy Usage
 --------------
 Now change in the directory as follows.
     cd /opt/mjpg-streamer-rapi-libcamera/mjpg-streamer-experimental
