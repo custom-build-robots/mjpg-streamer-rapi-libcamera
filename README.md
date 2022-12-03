@@ -92,8 +92,8 @@ Usage
 From the mjpeg streamer experimental
 folder:
 ```
-export LD_LIBRARY_PATH=.
-./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+export LD_LIBRARY_PATH=/usr/local/lib/mjpg-streamer
+./mjpg_streamer -i "input_libcamera.so" -o "./output_http.so -w ./www"
 ```
 
 See [README.md](mjpg-streamer-experimental/README.md) or the individual plugin's documentation for more details.
