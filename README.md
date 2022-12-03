@@ -1,7 +1,14 @@
 mjpg-streamer for Raspberry Pi 4 with libcamera
 =============
 
-This is a fork of http://sourceforge.net/projects/mjpg-streamer/ with added support for the Raspberry Pi camera via the libcamera module now used as default from the Raspberry Pi Foundation.
+This is a fork of http://sourceforge.net/projects/mjpg-streamer/ with added 
+support for the Raspberry Pi camera via the libcamera module now used as 
+default from the Raspberry Pi Foundation.
+
+For this setup I used a Raspberry Pi 4 with 4GB RAM. The image I installed
+on a 16 GB micro-SD card had the version:
+     
+     2022-09-22-raspios-bullseye-armhf-full.img
 
 mjpg-streamer is a command line application that copies JPEG frames from one
 or more input plugins to multiple output plugins. It can be used to stream
@@ -25,6 +32,16 @@ on will be able to access it.
 
 Building & Installation
 =======================
+
+Please update your Raspberry Pi installation as follows.
+
+    sudo apt-get update
+
+    sudo apt-get upgrade
+
+To get the latest firmware installed execute the following command.
+
+    sudo rpi-update
 
 You must have cmake installed. You will also probably want to have a development
 version of libjpeg installed. I used libjpeg8-dev. e.g.
