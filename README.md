@@ -71,8 +71,6 @@ This will build and install all plugins that can be compiled.
     sudo make
     sudo make install
 
-
-
 Advanced Usage
 --------------
 Now change in the directory as follows.
