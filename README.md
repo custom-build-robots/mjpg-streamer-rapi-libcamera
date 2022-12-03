@@ -51,11 +51,11 @@ Building & Installation
 You must have cmake installed. You will also probably want to have a development
 version of libjpeg installed. I used libjpeg8-dev. e.g.
 
-    sudo apt-get install cmake libjpeg8-dev
+    sudo apt-get install cmake libjpeg9-dev 
 
-If you do not have gcc (and g++ for the opencv plugin) you may need to install those.
+If you do not have gcc (and g++ for the opencv plugin) and libcamera-dev you may need to install those.
 
-    sudo apt-get install gcc g++
+    sudo apt-get install gcc g++ libcamera-dev git
 
 Simple compilation
 ------------------
