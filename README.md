@@ -74,10 +74,15 @@ This will build and install all plugins that can be compiled.
 Easy Usage
 --------------
 Now change in the directory as follows.
+
     cd /opt/mjpg-streamer-rapi-libcamera/mjpg-streamer-experimental
+    
 Start the start.sh script located in the following folger.
+
     sh start.sh
+    
 Now start your browser and open the following url. Please use the IP-address of your Raspberry Pi.
+
     http://<ip-address>:8080/stream.html
 
 Advanced Usage
