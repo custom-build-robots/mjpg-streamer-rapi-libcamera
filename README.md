@@ -70,29 +70,19 @@ This will build and install all plugins that can be compiled.
     cd /opt/mjpg-streamer-rapi-libcamera/mjpg-streamer-experimental
     sudo make
     sudo make install
-    
-By default, everything will be compiled in "release" mode. If you wish to compile
-with debugging symbols enabled, you can do this:
 
-    cd mjpg-streamer-experimental
-    make distclean
-    make CMAKE_BUILD_TYPE=Debug
-    sudo make install
-    
-Advanced compilation (via CMake)
---------------------------------
 
-There are options available to enable/disable plugins, setup options, etc. This
-shows the basic steps to enable the experimental HTTP management feature:
 
-    cd mjpg-streamer-experimental
-    mkdir _build
-    cd _build
-    cmake -DENABLE_HTTP_MANAGEMENT=ON ..
-    make
-    sudo make install
+Advanced Usage
+--------------
+Now change in the directory as follows.
+    cd /opt/mjpg-streamer-rapi-libcamera/mjpg-streamer-experimental
+Start the start.sh script located in the following folger.
+    sh start.sh
+Now start your browser and open the following url. Please use the IP-address of your Raspberry Pi.
+    http://<ip-address>:8080/stream.html
 
-Usage
+Advanced Usage
 =====
 From the mjpeg streamer experimental
 folder:
